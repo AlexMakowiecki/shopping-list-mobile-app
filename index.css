@@ -44,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #432000;
+    background-color: #6e9692;
     cursor: pointer;
 }
 
@@ -68,6 +68,8 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #FFECC7;
+    background-color: #c2b7a2;
+    color: #8a8278;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
