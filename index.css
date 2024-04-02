@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #f2f4ee;
+    color: #432000;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    color: #373b3b;
+    background-color: #d7e7e6;
+    border: 1px solid #656d6c;
+    padding: 15px;
+
+    font-size: 20px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #94c6c3;
+    padding: 15px; 
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    border:none;
+    box-shadow: 4px 4px 0px #435a58;;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    flex-grow: 1;
+    padding: 15px;
+    background-color: #FFFDF8;
+    border: 1px solid #a3a19d;
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
