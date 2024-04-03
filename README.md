@@ -48,9 +48,10 @@ I used HTML, CSS, Javascript, Firebase, manifest.json, and multiple types of ima
 - **favicons** to add an image in the website tab
 - **Web Application Manifest** to make web apps look like native phone apps.
 ## Preview 
-<img style="text-align:center" src="https://github.com/AlexMakowiecki/unit-converter/assets/122258496/b850091f-3650-4658-aeff-b1c18d2847a7" width="500"/> 
+<img style="text-align:center" src="https://github.com/AlexMakowiecki/shopping-list-mobile-app/assets/122258496/c003adda-08f0-4f54-a91b-99db153a4cd7" width="500"/> 
 
-## About Scrimba
+## About Scrimba!
+
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
 If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
