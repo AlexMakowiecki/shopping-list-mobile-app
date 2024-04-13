@@ -10,12 +10,13 @@ const database = getDatabase(app)
 const shoppingListInDB = ref(database, "shoppingList")
 
 const inputFieldEl = document.getElementById("input-field")
-const addButtonEl = document.getElementById("add-button")
+const form = document.getElementById("form")
 const shoppingListEl = document.getElementById("shopping-list")
 
-addButtonEl.addEventListener("click", function() {
-    let inputValue = inputFieldEl.value
-    
+form.addEventListener("submit", function(e) {
+    const inputValue = inputFieldEl.value
+    e.preventDefault();
+
     push(shoppingListInDB, inputValue)
     
     clearInputFieldEl()
