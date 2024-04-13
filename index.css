@@ -19,6 +19,11 @@ img {
     margin: 0 auto;
 }
 
+form{
+  display:flex;
+  flex-direction:column;
+}
+
 input {
     color: #373b3b;
     background-color: #d7e7e6;
