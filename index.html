@@ -16,9 +16,11 @@
     </head>
     <body>
         <div class="container">
-            <img src="assets/pixel-shopping-cat.png">
-            <input minlength="1" type="text" id="input-field" placeholder="You can write here..">
-            <button id="add-button">Add to cart</button>
+            <img src="assets/pixel-shopping-cat.png" alt="pixelart of a gray cat inside a shopping cart">
+            <form id="form">
+              <input id="input-field" name="input-field" type="text" placeholder="You can write here.." autocomplete="off" required>
+              <button type="submit" id="add-button">Add to cart</button>
+            </form>
             <ul id="shopping-list">
             </ul>
         </div>
